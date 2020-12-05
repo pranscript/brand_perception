@@ -2,3 +2,4 @@
 .env
 wordEmbedding/
 trainingandtestdata/
+lstm_glove.twitter.27B/my_model/
