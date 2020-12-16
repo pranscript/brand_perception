@@ -1,0 +1,92 @@
+
+<!------ Include the above in your HEAD tag ---------->
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='testcss.css') }}">
+</head>
+<body>
+<div class="container register">
+                <div class="row">
+                    <div class="col-md-3 register-left">
+                        <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+                        <h3>Welcome</h3>
+                        <p>Find Your Brand's Perception on Social Media Through Deep Learning</p>
+                        
+                    </div>
+                    <div class="col-md-9 register-right">
+                        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                            <!--<li class="nav-item">
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Input</a>
+                            </li>-->
+                            <!--<li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Results</a>
+                            </li>-->
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <h3 class="register-heading">Enter Social Media URL</h3>
+								<form action = "http://localhost:5000/" method = "post">
+                                <div class="row register-form">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+											<!--<label for="twitterlink">Ex. - https://twitter.com/uber?lang=en </label>-->
+                                            <input type="text" class="form-control" placeholder="Twitter URL" name="twitter" value="https://twitter.com/uber?lang=en" id="twitterlink"/>
+                                        </div>
+                                        <div class="form-group">
+											<!--<label for="redditlink">Ex. - https://www.reddit.com/r/uber/ </label>-->
+                                            <input type="text" class="form-control" placeholder="Reddit URL" name="reddit" value="https://www.reddit.com/r/uber/" id="redditlink"/>
+                                        </div>
+                                        <!--<div class="form-group">
+                                            <input type="password" class="form-control" placeholder="Password *" value="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control"  placeholder="Confirm Password *" value="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="maxl">
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="gender" value="male" checked>
+                                                    <span> Male </span> 
+                                                </label>
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="gender" value="female">
+                                                    <span>Female </span> 
+                                                </label>
+                                            </div>
+                                        </div>-->
+                                    </div>
+                                    <div class="col-md-6">
+                                        <!--<div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Your Email *" value="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value="" />
+                                        </div>
+                                        <div class="form-group">
+                                            <select class="form-control">
+                                                <option class="hidden"  selected disabled>Please select your Sequrity Question</option>
+                                                <option>What is your Birthdate?</option>
+                                                <option>What is Your old Phone Number</option>
+                                                <option>What is your Pet Name?</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Enter Your Answer *" value="" />
+                                        </div>-->
+                                        <input type="submit" class="btnRegister"  value="Submit"/>
+                                    </div>
+                                </div>
+								</form>
+                            </div>
+                   
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+	</body>
+</html>

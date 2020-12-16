@@ -1,5 +1,8 @@
-*.txt
 .env
 wordEmbedding/
 trainingandtestdata/
 lstm_glove.twitter.27B/my_model/
+lstm_glove.twitter.27B/__pycache__/
+lstm_glove.twitter.27B/.ipynb_checkpoints/
+lstm_glove.twitter.27B/test_initialization.ipynb
+lstm_glove.twitter.27B/test_updated.ipynb
