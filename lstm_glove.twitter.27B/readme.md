@@ -6,7 +6,7 @@
 - Model - LSTM
 - Dataset - [Sentiment140](http://help.sentiment140.com/for-students) 
 - Word Embedding - [glove.twitter.27B.zip](https://nlp.stanford.edu/projects/glove/) 
-- [Live Demo Link](http://a17109cba152.ngrok.io/)
+- [Live Demo Link](http://brandperception.pranscript.com/)
 
 ## Prerequisite
 
